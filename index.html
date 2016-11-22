@@ -16,41 +16,41 @@
 <body>
   <div class="wrapper">
       <header class="main-header">
-          <a class="logo" href="http://arluma.ru">
-              <img src="images/arluma3/img/logo-index.png" width="358" height="77" alt="Арлюма Восток">
-              <span>Продажа краски от Арлюма Восток.</span></a>
-          <div class="search">
-              <form class="nc_search" id="searchform" action="http://arluma.ru/search/" method="GET">
-                  <input class="search_input" type="search" name="search_query" id="nc_search_query" value="" placeholder="Поиск по сайту">
-                  <button class="submit" type="submit" value="Поиск">Поиск</button>
-              </form>
-          </div>
-          <a class="tel" href="tel:+7 (383) 286-81-17">+7 (383) <b>286-81-17</b></a>
-          <div class="feedback-block">
-              <div class="address">
-                г. Новосибирск<br>
-                ул. Арбузова 1/1, оф 82
-              </div>
-              <a href="#" class="btn feedback-popup">Обратная связь</a>
-          </div>
-          <nav class="main-menu">
-              <ul>
-                  <li><a href="http://arluma.ru/about/" title="О компании">О компании</a></li>
-                  <li><a href="http://cat.arluma.ru/" title="Каталог">Каталог</a></li>
-                  <li><a href="http://arluma.ru/offers-of-the-month/" title="Товар месяца">Товар месяца</a></li>
-                  <li><a href="http://arluma.ru/news/" title="Новости">Новости</a></li>
-                  <li><a href="http://arluma.ru/buy/" title="Где купить">Где купить</a></li>
-                  <li><a href="http://arluma.ru/feedback/dealer/" title="Партнерам">Партнерам</a></li>
-                  <li><a href="http://arluma.ru/help/video/" title="Видеоиструкции">Видеоиструкции</a></li>
-              </ul>
-              <aside class="widget-cart">
-                  <div id="nc_minishop_cart">Корзина пуста</div>
-              </aside>
-          </nav>
+        <a class="logo">
+            <img src="images/arluma3/img/logo-index.png" width="358" height="77" alt="Арлюма Восток">
+            <span>Продажа краски от Арлюма Восток.</span>
+        </a>
+        <form class="search nc_search" id="searchform" action="http://arluma.ru/search/" method="GET">
+            <input class="search_input" type="search" name="search_query" id="nc_search_query" value="" placeholder="Поиск по сайту">
+            <button class="submit" type="submit" value="Поиск">Поиск</button>
+        </form>
+
+        <a class="tel" href="tel:+7 (383) 286-81-17">+7 (383) <b>286-81-17</b></a>
+        <div class="feedback-block">
+            <p class="address">
+              г. Новосибирск<br>
+              ул. Арбузова 1/1, оф 82
+            </p>
+            <a href="#" class="btn feedback-popup">Обратная связь</a>
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="http://arluma.ru/about/" title="О компании">О компании</a></li>
+                <li><a href="http://cat.arluma.ru/" title="Каталог">Каталог</a></li>
+                <li><a href="http://arluma.ru/offers-of-the-month/" title="Товар месяца">Товар месяца</a></li>
+                <li><a href="http://arluma.ru/news/" title="Новости">Новости</a></li>
+                <li><a href="http://arluma.ru/buy/" title="Где купить">Где купить</a></li>
+                <li><a href="http://arluma.ru/feedback/dealer/" title="Партнерам">Партнерам</a></li>
+                <li><a href="http://arluma.ru/help/video/" title="Видеоиструкции">Видеоиструкции</a></li>
+            </ul>
+            <aside class="widget-cart">
+                <div id="nc_minishop_cart">Корзина пуста</div>
+            </aside>
+        </nav>
       </header>
       <main>
           <aside class="widget-col">
-              <nav class="catalog-category-list">
+              <nav class="sidebar-menu">
                   <h3>По типу ЛКМ</h3>
                   <ul>
                       <li><a href="http://cat.arluma.ru/lkm/grunt/">Грунт</a></li>
@@ -61,7 +61,7 @@
                       <li><a href="http://cat.arluma.ru/lkm/rastvoriteli/">Растворители и очистители</a></li>
                   </ul>
               </nav>
-              <nav class="catalog-category-list">
+              <nav class="sidebar-menu">
                   <h3>По назначению</h3>
                   <ul>
                       <li><a href="http://cat.arluma.ru/decorative/">Декоративные</a></li>
@@ -74,7 +74,7 @@
                       <li><a href="http://cat.arluma.ru/instrumet/">Инструменты</a></li>
                   </ul>
               </nav>
-              <nav class="catalog-category-list">
+              <nav class="sidebar-menu">
                   <h3>Коллекции</h3>
                   <ul>
                       <li><a href="http://cat.arluma.ru/rust-oleum/american-accents/" class="new">American Accents</a></li>
@@ -103,7 +103,7 @@
                       <li><a href="http://cat.arluma.ru/rust-oleum/ultimate/">Wood Care ULTIMATE</a></li>
                   </ul>
               </nav>
-              <nav class="info-list">
+              <nav class="sidebar-menu">
                   <h3>Информация</h3>
                   <ul>
                       <li><a href="/help/stat/">Статьи</a></li>
@@ -116,34 +116,52 @@
           <div class="content">
               <div class="promo-block">
                   <div class="slider">
+                    тут должен быть слайдер
+                  </div>
+                  <ul class="promo-menu-block">
+                      <li>
+                          <a href="/vdohnovenie"><img src="http://arluma.ru/netcat_files/343/idei_171h102_01.png" width="190" height="114" alt="Вдохновение"></a>
+                          <a class="button" href="/vdohnovenie">Вдохновение</a>
+                      </li>
+                      <li>
+                          <a href="http://rust-oleum.ru/"><img src="http://arluma.ru/netcat_files/421/shop_190x114_01.jpg" width="190" height="114" alt="Интернет магазин"></a>
+                          <a class="button" href="http://rust-oleum.ru/">Интернет магазин</a>
+                      </li>
+                      <li>
+                          <a href="http://www.neverwet-msk.ru/"><img src="http://arluma.ru/netcat_files/456/neverwet_190x114_01.jpg" width="190" height="114" alt="Индустриальный NeverWet"></a>
+                          <a class="button" href="http://www.neverwet-msk.ru/">Индустриальный NeverWet</a>
+                      </li>
+                      <li>
+                          <a href="http://arlumaib.ru"><img src="http://arluma.ru/netcat_files/442/ind2.gif" width="190" height="114" alt="Индустриальные покрытия"></a>
+                          <a class="button" href="http://arlumaib.ru">Индустриальные покрытия</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="promo-specgoods">
+                  <h2>Специальное предложение</h2>
+                  <section class="promo-specgoods-list">
+                    <a class="specgoods-item" href="">
+                        <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
+                        <span>Износостойкие лаки для внутренних работ</span>
+                    </a>
+                    <a class="specgoods-item" href="">
+                        <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
+                        <span>Износостойкие лаки для внутренних работ</span>
+                    </a>
+                    <a class="specgoods-item" href="">
+                        <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
+                        <span>Износостойкие лаки для внутренних работ</span>
+                    </a>
+                    <a class="specgoods-item" href="">
+                        <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
+                        <span>Износостойкие лаки для внутренних работ</span>
+                    </a>
+                    <a class="specgoods-item" href="">
+                        <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
+                        <span>Износостойкие лаки для внутренних работ</span>
+                    </a>
+                  </section>
 
-                  </div>
-                  <div class="promo-menu-block">
-
-                  </div>
-                  <div class="promo-specgoods-list">
-                      <h2>Специальное предложение</h2>
-                      <a class="specgoods-item" href="">
-                          <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
-                          <span>Износостойкие лаки для внутренних работ</span>
-                      </a>
-                      <a class="specgoods-item" href="">
-                          <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
-                          <span>Износостойкие лаки для внутренних работ</span>
-                      </a>
-                      <a class="specgoods-item" href="">
-                          <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
-                          <span>Износостойкие лаки для внутренних работ</span>
-                      </a>
-                      <a class="specgoods-item" href="">
-                          <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
-                          <span>Износостойкие лаки для внутренних работ</span>
-                      </a>
-                      <a class="specgoods-item" href="">
-                          <img src="http://arluma.ru/netcat_files/501/654/lak_dlya_vnutrennih_rabot.jpg" width="178" height="217" alt="">
-                          <span>Износостойкие лаки для внутренних работ</span>
-                      </a>
-                  </div>
               </div>
               <div class="text-block">
                   <h1>Краски оптом</h1>
@@ -167,17 +185,17 @@
               <div class="prom-catalog-list">
                   <ul>
                       <li>
-                          <img src="/netcat_files/userfiles/catalog_2016.png" width="178" height="269" alt="Rust-Oleum">
-                          <a title="Cкачать Каталог 2016" href="/netcat_files/userfiles/catalog_2016.pdf" download="">Cкачать Каталог 2016</a>
+                          <img src="http://arluma.ru/netcat_files/userfiles/catalog_2016.png" width="178" height="269" alt="Rust-Oleum">
+                          <a title="Cкачать Каталог 2016" href="http://arluma.ru/netcat_files/userfiles/catalog_2016.pdf" download="">Cкачать Каталог 2016</a>
                       </li>
                       <li>
-                          <img src="/netcat_files/userfiles/cat_ind1_prew.png" width="178" height="269" alt="Каталог индустриальных покрытий">
-                          <a title="Cкачать Каталог" href="/netcat_files/userfiles/cat_ind1.pdf" download="">Скачать Каталог </a>
+                          <img src="http://arluma.ru/netcat_files/userfiles/cat_ind1_prew.png" width="178" height="269" alt="Каталог индустриальных покрытий">
+                          <a title="Cкачать Каталог" href="http://arluma.ru/netcat_files/userfiles/cat_ind1.pdf" download="">Скачать Каталог </a>
                           <span>Каталог индустриальных покрытий</span>
                       </li>
                       <li>
-                          <img src="/netcat_files/spec/NeverWet_box.jpg" width="178" height="269" alt="Never Wet">
-                          <a title="Cкачать Видео" href="/images/arlumav2/video/Never_Wet_new.mp4" download="">Cкачать Видео</a>
+                          <img src="http://arluma.ru/netcat_files/spec/NeverWet_box.jpg" width="178" height="269" alt="Never Wet">
+                          <a title="Cкачать Видео" href="http://arluma.ru/images/arlumav2/video/Never_Wet_new.mp4" download="">Cкачать Видео</a>
                           <span>НОВИНКА- водоотталкивающее самоочищающееся покрытие</span>
                       </li>
                   </ul>
