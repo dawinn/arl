@@ -250,6 +250,8 @@ main {
 }
 .sidebar-menu li:hover {
   position: relative;
+  background-image: linear-gradient(to left,rgba(86, 139, 195, 0.2),transparent 50%);
+
 }
 .sidebar-menu li:hover::before {
   content: "";
@@ -260,6 +262,48 @@ main {
   left: 5px;
   border: 3px solid transparent;
   border-left: 3px solid #002e5e;
+}
+.sidebar-menu li > ul li{
+  display: none;
+}
+.sidebar-menu li > ul {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  top: 0;
+  left: 190px;
+}
+.sidebar-menu li > ul::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 7px;
+  left: -15px;
+  color: #002e5e;
+  border: 3px solid transparent;
+  border-left: 3px solid #002e5e;
+}
+.sidebar-menu li:hover > ul li{
+    display: block;
+
+}
+.sidebar-menu li:hover > ul {
+  position: absolute;
+  display: block;
+  left: 190px;
+  background-color: #f9f9f9;
+  border-radius: 1px;
+  padding-left: 12px;
+  background-image: linear-gradient(to right,rgba(86, 139, 195, 0.2),transparent 50%);
+  z-index:10;
+  box-shadow: 1px 1px 10px 1px rgba(86, 139, 195, 0.5);
+  z-index: 10;
+
+  overflow: auto;
+}
+sidebar-menu li:hover > ul li{
+  margin-bottom: 4px;
 }
 .sidebar-menu a {
   text-decoration: none;
