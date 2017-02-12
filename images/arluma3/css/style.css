@@ -202,8 +202,10 @@ body {
   float: left;
   font-size: 0;
   background-color: #012d5b;
-  background: #002e5e linear-gradient(#165293 15% , #002e5e 55%);
+  background-color: #012d5b;
+  background: #002e5e linear-gradient(#002e5e 0%,rgba(3, 169, 244, 0.54) 38%, #002e5e 59%);
   color:  #ffffff;
+  box-shadow: inset 2px 2px 8px 0px #012d5b, inset -2px -2px 8px 0px #012d5b;
 }
 .main-menu ul {
   margin: 0;
@@ -233,7 +235,7 @@ body {
   background-color: rgba(255,255,255,0.2);
 }
 .main-menu li:hover {
-      background: radial-gradient(ellipse 40% 60%,rgba(3, 169, 244, 0.4) 25% , rgba(22, 82, 147, 0.1) 100%),linear-gradient(rgba(22, 82, 147, 1) 15% , rgba(0, 46, 94, 0.81) 55%);
+  background: radial-gradient(ellipse 40% 60%,rgba(3, 169, 244, 0.4) 25% , rgba(22, 82, 147, 0.1) 100%), linear-gradient(#002e5e 0%,rgba(3, 169, 244, 0.54) 38%, #002e5e 59%);
 }
 .main-menu .widget-cart {
   float: right;
