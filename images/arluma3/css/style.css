@@ -234,7 +234,8 @@ body {
   left:0;
   background-color: rgba(255,255,255,0.2);
 }
-.main-menu li:hover {
+.main-menu li:hover,
+.main-menu li.active {
   background: radial-gradient(ellipse 40% 60%,rgba(3, 169, 244, 0.4) 25% , rgba(22, 82, 147, 0.1) 100%), linear-gradient(#002e5e 0%,rgba(3, 169, 244, 0.54) 38%, #002e5e 59%);
 }
 .main-menu .widget-cart {
@@ -542,4 +543,17 @@ sidebar-menu li:hover > ul li{
 .col-x3:nth-child(2) {
   margin: 0 auto;
   text-align: center;
+}
+.single-page {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.4;
+  text-align: justify;
+}
+.single-page h1,
+.single-page h2 {
+  color: #003366;
+  text-transform: uppercase;
+  font-weight: 400;
 }
