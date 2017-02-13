@@ -93,6 +93,7 @@ body {
   position: absolute;
   right: -65px;
   bottom: 5px;
+  color: #002e5e;
 }
 .search {
   float: left;
@@ -175,8 +176,10 @@ body {
   padding: 0;
   margin-bottom: 20px;
   color: #003366;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 16px;
+  filter: drop-shadow(0 0 1px rgba(100,100,100,0.2));
 }
 .btn {
   background-color: #003366;
@@ -544,6 +547,8 @@ sidebar-menu li:hover > ul li{
   margin: 0 auto;
   text-align: center;
 }
+/* простая текстовая страница
+*/
 .single-page {
   padding: 20px;
   background-color: #ffffff;
@@ -556,4 +561,112 @@ sidebar-menu li:hover > ul li{
   color: #003366;
   text-transform: uppercase;
   font-weight: 400;
+}
+/* каталог список
+*/
+.promo {
+  width: 816px;
+  height: 283px;
+  padding-top: 47px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 12px;
+  line-height: 1.3;
+  background-repeat: no-repeat;
+}
+.promo h1 {
+  color: #7E4D2E;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-stretch: condensed;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.promo img {
+  float: left;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.promo-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 320px;
+  margin-left: 10px;
+}
+.for-use{
+  width: 100%;
+  height: 53px;
+  margin: 15px 0 0 0;
+  float: left;
+  color: #666666;
+  padding: 10px 0 0 0;
+}
+.for-use span:first-child {
+  width: 25%;
+  height: 53px;
+  font-size: 16px;
+  float: left;
+  font-weight: bold;
+  padding: 13px 0 0 17px;
+}
+.for-use span {
+  width: 23%;
+  float: left;
+  font-weight: bold;
+  font-size: 11px;
+}
+.catalog-list{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -4px;
+}
+.catalog-item {
+  position: relative;
+  width: 184px;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  border-radius: 2px;
+}
+
+.catalog-item a,
+ .catalog-item h4{
+  color: #484E46;
+  text-decoration: none;
+  font-weight: 400;
+}
+.catalog-item .on-hover {
+  position: absolute;
+  display: none;
+  width: 194px;
+  left: -1px;
+  padding: 10px 0;
+  z-index: 10;
+}
+.catalog-item:hover {
+  box-shadow: 0 5px 5px 0 #dcdcdc;
+}
+.catalog-item:hover .on-hover{
+  display: block;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  box-shadow: 0 5px 5px 0 #dcdcdc;
+}
+.stext {
+  padding: 10px;
+  margin: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #484E46;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 0px 5px 0 #dcdcdc;
 }
